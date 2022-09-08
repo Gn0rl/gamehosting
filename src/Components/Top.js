@@ -1,5 +1,5 @@
 import '../css/top.css';
-import User from '../Images/User.png';
+import UserIco from '../Images/User.png';
 import Logo from '../Images/Logo.png';
 import {Link} from 'react-router-dom';
 import { Paths } from '../path';
@@ -18,7 +18,7 @@ export default function Top()
                     </div>
                 </div>
                 <div>
-                    <img scr={User} alt='asd'/>
+                    <img scr={UserIco} alt='asd'/>
                 </div>
             </div>
             <div style={{border: '1px solid #004d40'}}></div>
