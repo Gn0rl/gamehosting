@@ -30,6 +30,7 @@ a {
 }
 
 .BtnDonload {
+  position: relative;
   background-color: #86ff7c;
   border-radius: 10%;
   border-color: teal;
@@ -39,8 +40,7 @@ a {
   height: 4rem;
   cursor: pointer;
 
-  margin-top: 7rem;
-  margin-left: -13rem;
+  top: 80%;
 }
 
 .mainGameBlock {
