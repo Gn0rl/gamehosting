@@ -1,7 +1,13 @@
 import terrariaImg from '../Images/terraria.jpeg';
+import trealerTerraria from '../Images/Terraria Journeys End (720p).mp4'
+import ReactPlayer from 'react-player';
+
 const GameComponent = (props) => {
     return (
         <div>
+            <div style={{height: "40rem", marginBottom: "10%"}}>
+                <ReactPlayer width={'100%'} height={'100%'} className='Video' url="https://www.youtube.com/watch?v=H77Zfzy4LWw" controls={true}/>
+            </div>
             <div className="mainGameBlock">
                 <img src={terrariaImg} alt={'a'} className={'GameImg'}/>
                 <span><h1 className={'gameName'}>{props.GameName}</h1></span>
