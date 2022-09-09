@@ -1,5 +1,5 @@
 body{
-  background-color: #121512;
+  background-color: #0d0d0d;
 }
 .GameImg {
   transition: 1s;
@@ -81,4 +81,6 @@ a {
   width: 20rem;
   height: 12rem;
 }
+
+
 

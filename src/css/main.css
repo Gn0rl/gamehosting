@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Exo+2:wght@100;300;400&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+.mainLogo{
+        display:block;
+        margin:auto;       
+}
+.mainText{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    color: #004d40;
+    font-size: 70px;
+    text-align: center;
+    border-bottom: #004d40 solid 1px;
+    max-width: max-content;
+    margin: auto;
+}
+.MakeLogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: #004d40 solid 5px;
+    display:block;
+    margin:auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.MakeText{
+        border: #004d40 solid 3px;
+        width: auto;
+        height: 20rem;
+        padding: 5px;
+        font-family: 'Play', sans-serif;
+        color:#004d40;
+        width: 300px;
+}
+
+.CompanyName{
+display: inline-block;
+}
+.Make{
+    display: flex;
+}
+.InfoListt{
+    text-align: center;
+        display:block;
+        margin:auto;
+}

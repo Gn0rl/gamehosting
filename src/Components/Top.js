@@ -1,6 +1,6 @@
 import '../css/top.css';
-import UserIco from '../Images/User.png';
 import Logo from '../Images/Logo.png';
+import Logo2 from './User.png';
 import {Link} from 'react-router-dom';
 import { Paths } from '../path';
 
@@ -17,8 +17,8 @@ export default function Top()
                         <span>GAMEHOSTING</span>
                     </div>
                 </div>
-                <div>
-                    <img scr={UserIco} alt='asd'/>
+                <div className='Prifle'>
+                    <Link to={Paths[1].path}><img src={Logo2} alt='GAYPORNO'/></Link>
                 </div>
             </div>
             <div style={{border: '1px solid #004d40'}}></div>
