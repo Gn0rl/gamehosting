@@ -3,7 +3,7 @@ import GameImg1 from '../Images/imageInGame1.jpeg';
 import GameImg2 from '../Images/imageInGame2.jpeg';
 import GameImg3 from '../Images/imageInGame3.jpeg';
 import Top from '../Components/Top';
-import MainPage from '../Components/MainPage'
+import MainPage from '../Components/MainComponent'
 
 const GamePage = () => {
     return (

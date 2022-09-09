@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
 .mainLogo{
-        display:block;
-        margin:auto;       
+    display:block;
+    margin:auto;       
 }
 .mainText{
     font-family: 'Comfortaa', cursive;
@@ -27,23 +27,23 @@
     margin-bottom: 1rem;
 }
 .MakeText{
-        border: #004d40 solid 3px;
-        width: auto;
-        height: 20rem;
-        padding: 5px;
-        font-family: 'Play', sans-serif;
-        color:#004d40;
-        width: 300px;
+    border: #004d40 solid 3px;
+    width: auto;
+    height: 12rem;
+    padding: 5px;
+    font-family: 'Play', sans-serif;
+    color:#004d40;
+    width: 300px;
 }
 
 .CompanyName{
-display: inline-block;
+    display: inline-block;
 }
 .Make{
     display: flex;
 }
 .InfoListt{
     text-align: center;
-        display:block;
-        margin:auto;
+    display:block;
+    margin:auto;
 }

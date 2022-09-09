@@ -1,7 +1,8 @@
 import Logo from '../Images/Logo.png';
-import '../css/main.css'
+import '../css/main.css';
+import YouTube from  'react-youtube';
 
-export default function MainPage(propsmain)
+export default function MainComponent(props)
 {
     return(
         <div className="conteiner">
@@ -10,6 +11,7 @@ export default function MainPage(propsmain)
                 <div className='mainText'>
                 <span>GAMEHOSTING</span>
                 </div>
+                <YouTube videoId='tXqH_Ed-6aI'/>
             </div>
             <span className='CompanyInfo'>
                 <div className='Make'>
@@ -18,9 +20,8 @@ export default function MainPage(propsmain)
 
                         </div>
                         <div className='MakeText'>
-                        <h1>Зарабатывай!</h1>
+                            <h1>Соревнуйся!</h1>
                             <h2>Coming Soon</h2>
-                            <div></div>
                         </div>
                     </div>
                     <div className='InfoListt'>
@@ -33,7 +34,6 @@ export default function MainPage(propsmain)
                             <div>Отправь ссылку на облоко с игрой</div>
                             <div>Жди проверки и получай коментарии</div>
                             <div>Повышай свой рейтинг комментируя игры</div>
-                            
                         </div>
                     </div>
                     <div className='InfoListt'>
@@ -51,5 +51,5 @@ export default function MainPage(propsmain)
             </span>
         </div>
     )
-     
+
 }
