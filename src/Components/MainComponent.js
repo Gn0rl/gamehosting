@@ -6,12 +6,11 @@ export default function MainComponent(props)
 {
     return(
         <div className="conteiner">
-            <div className='Boreder' >
+            <div className='Logos' >
                 <img className='mainLogo' src={Logo} alt='$'/>
                 <div className='mainText'>
                 <span>GAMEHOSTING</span>
                 </div>
-                <ReactPlayer width={'100%'} height={'100%'} className='Video' url="https://www.youtube.com/watch?v=zTitoHKsyJg" controls={true} />
             </div>
             <span className='CompanyInfo'>
                 <div className='Make'>

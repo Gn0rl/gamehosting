@@ -1,5 +1,4 @@
 import terrariaImg from '../Images/terraria.jpeg';
-import trealerTerraria from '../Images/Terraria Journeys End (720p).mp4'
 import ReactPlayer from 'react-player';
 
 const GameComponent = (props) => {

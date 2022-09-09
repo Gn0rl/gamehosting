@@ -7,8 +7,8 @@ import { Paths } from '../path';
 export default function Top()
 {
     return(
-        <div>
-            <div style={{display: 'inline-flex'}}>
+        <div className='Container'>
+            <div style={{display: 'inline'}}>
                 <div className='logo'>
                     <div>
                     <Link to={Paths[0].path}><img src={Logo} alt='GAYPORNO'/></Link>
@@ -17,8 +17,8 @@ export default function Top()
                         <span>GAMEHOSTING</span>
                     </div>
                 </div>
-                <div className='Prifle'>
-                    <Link to={Paths[1].path}><img src={Logo2} alt='GAYPORNO'/></Link>
+                <div style={{display: 'inline'}}>
+                    <Link to={Paths[1].path} className='Profile'><img src={Logo2} alt='GAYPORNO'/></Link>
                 </div>
             </div>
             <div style={{border: '1px solid #004d40'}}></div>
