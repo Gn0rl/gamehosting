@@ -4,8 +4,14 @@
 body{
     background-color: #0d0d0d;
 }
-
+@keyframes logoAnim {
+    from{filter: brightness(100%)}
+    from{font-size: 50px}
+    to{filter: brightness(2000%)}
+    to{font-size: 60px}
+}
 .logo{
+    transition: 1s;
     color: #004d40;
     display: inline-flex;
     font-family: 'Comfortaa', cursive;
@@ -13,7 +19,9 @@ body{
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     margin-left: 1rem;
-  }
+    animation: logoAnim 60s infinite linear;
+}
+
 .logoname{
     margin-left: 1rem;
 }
@@ -23,7 +31,4 @@ body{
     font-family: 'Play', sans-serif;
     text-align: center; margin-left: 5rem; margin-right: 5rem;
     margin-bottom: 4rem;
-}
-.Profile{
-    float: right;
 }
