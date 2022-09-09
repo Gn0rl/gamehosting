@@ -1,6 +1,6 @@
 import Logo from '../Images/Logo.png';
 import '../css/main.css';
-import YouTube from  'react-youtube';
+import ReactPlayer from 'react-player';
 
 export default function MainComponent(props)
 {
@@ -11,7 +11,7 @@ export default function MainComponent(props)
                 <div className='mainText'>
                 <span>GAMEHOSTING</span>
                 </div>
-                <YouTube videoId='tXqH_Ed-6aI'/>
+                <ReactPlayer width={'100%'} height={'100%'} className='Video' url="https://www.youtube.com/watch?v=zTitoHKsyJg" controls={true} />
             </div>
             <span className='CompanyInfo'>
                 <div className='Make'>
