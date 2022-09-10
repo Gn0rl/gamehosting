@@ -1,0 +1,30 @@
+.input {
+    margin-top: 1rem;
+    background-color: #1b2322;
+}
+.loginBlock {
+    text-align: center;
+    display: inline;
+    position: absolute;
+    right: 30%;
+    top: 40%;
+    left: 30%;
+}
+h1 {
+    color: #00695c;
+    font-family: 'Comfortaa', cursive;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: #004d40;
+    color: #1b2322;
+    border-radius: 10%;
+    border: #004d40 solid 1px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.buttons {
+    margin-top: 1rem;
+}

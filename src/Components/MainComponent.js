@@ -29,27 +29,28 @@ export default function MainComponent(props)
                         <div className='MakeLogo'>
                             
                         </div>
+                        <Link to={Paths[2].path}>
                         <div className='MakeText'>
                         <h1>Создавай!</h1>
                             <div>Создай любую игру</div>
                             <div>Отправь ссылку на облоко с игрой</div>
                             <div>Жди проверки и получай коментарии</div>
                             <div>Повышай свой рейтинг комментируя игры</div>
-                            
                         </div>
+                        </Link>
+
                     </div>
                     <div className='InfoListt'>
                         <div className='MakeLogo'>
                         
                         </div>
-                        <Link to={Paths[2].path}>
+
                             <div className='MakeText'>
                                 <h1>Играй!</h1>
                                 <div>Играй в игры других разработчиков!</div>
                                 <div>Оценивай чужые игры</div>
                                 <div>Повышай свой рейтинг комментируя игры</div>
                             </div>
-                        </Link>
                     </div>
                 </div>
             </span>

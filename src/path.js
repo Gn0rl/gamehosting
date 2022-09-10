@@ -14,6 +14,10 @@ export const Paths = [
     {
         id: 3,
         path: "/My_profile"
+    },
+    {
+        id: 4,
+        path: "/login"
     }
 
 ]
