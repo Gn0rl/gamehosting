@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Exo+2:wght@100;300;400&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
-@media(max-width: 1000px){
-    .MakeLogo{
-        display: flexbox;
-    }   
-}
+
 
 .mainLogo{
     display:block;
@@ -54,7 +50,11 @@
     margin:auto;
 }
 
-.PlayAndRandom{
-    width: 100%;
-    display: inline-flexbox;
+@media (max-width: 1000px){
+    .Make{
+        display: block;
+    }
+    .MakeText{
+        margin:auto;
+    }
 }
