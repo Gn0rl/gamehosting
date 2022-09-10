@@ -47,3 +47,8 @@
     display:block;
     margin:auto;
 }
+
+.PlayAndRandom{
+    width: 100%;
+    display: inline-flexbox;
+}
