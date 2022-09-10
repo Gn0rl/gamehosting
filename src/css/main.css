@@ -3,7 +3,7 @@
 
 @media(max-width: 1000px){
     .MakeLogo{
-        display: flex;
+        display: flexbox;
     }   
 }
 
