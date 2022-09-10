@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Exo+2:wght@100;300;400&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
+@media(max-width: 1000px){
+    .MakeLogo{
+        display: flex;
+    }   
+}
+
 .mainLogo{
     display:block;
     margin:auto;       
