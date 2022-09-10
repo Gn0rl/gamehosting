@@ -18,7 +18,7 @@ export default function Top()
                     </div>
                 </div>
                 <div style={{display: 'inline'}}>
-                    <Link to={Paths[1].path} className='Profile'><img src={Logo2} alt='GAYPORNO'/></Link>
+                    <Link to={Paths[3].path} className='Profile'><img src={Logo2} alt='GAYPORNO'/></Link>
                 </div>
             </div>
             <div style={{border: '1px solid #004d40'}}></div>

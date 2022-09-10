@@ -10,6 +10,10 @@ export const Paths = [
     {
         id: 2,
         path: "/Upload_the_game"
+    },
+    {
+        id: 3,
+        path: "/My_profile"
     }
 
 ]

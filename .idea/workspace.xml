@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0fb91eb8-1505-41ab-8f42-3a18e1ef4a2c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/game Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/game Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/mainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Top.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/path.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,9 +40,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Миша/Desktop/Project/gamehosting",
+    "last_opened_file_path": "/home/dmitriy/Документы/WEB/react/gamehosting",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -45,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662715974511</updated>
       <workItem from="1662715984133" duration="53000" />
+      <workItem from="1662812494959" duration="845000" />
     </task>
     <servers />
   </component>
