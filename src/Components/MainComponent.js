@@ -1,15 +1,16 @@
 import Logo from '../Images/Logo.png';
-import '../css/main.css';
-import ReactPlayer from 'react-player';
+import '../css/main.css'
+import {Link} from "react-router-dom";
+import {Paths} from "../path";
 
 export default function MainComponent(props)
 {
     return(
         <div className="conteiner">
-            <div className='Logos' >
+            <div className='Boreder' >
                 <img className='mainLogo' src={Logo} alt='$'/>
                 <div className='mainText'>
-                <span>GAMEHOSTING</span>
+                    <span>GAMEHOSTING</span>
                 </div>
             </div>
             <span className='CompanyInfo'>
@@ -19,8 +20,9 @@ export default function MainComponent(props)
 
                         </div>
                         <div className='MakeText'>
-                            <h1>Соревнуйся!</h1>
+                        <h1>Зарабатывай!</h1>
                             <h2>Coming Soon</h2>
+                            <div></div>
                         </div>
                     </div>
                     <div className='InfoListt'>
@@ -33,22 +35,25 @@ export default function MainComponent(props)
                             <div>Отправь ссылку на облоко с игрой</div>
                             <div>Жди проверки и получай коментарии</div>
                             <div>Повышай свой рейтинг комментируя игры</div>
+                            
                         </div>
                     </div>
                     <div className='InfoListt'>
                         <div className='MakeLogo'>
                         
                         </div>
-                        <div className='MakeText'>
-                            <h1>Играй!</h1>
-                            <div>Играй в игры других разработчиков!</div>
-                            <div>Оценивай чужые игры</div>
-                            <div>Повышай свой рейтинг комментируя игры</div>
-                        </div>
+                        <Link to={Paths[2].path}>
+                            <div className='MakeText'>
+                                <h1>Играй!</h1>
+                                <div>Играй в игры других разработчиков!</div>
+                                <div>Оценивай чужые игры</div>
+                                <div>Повышай свой рейтинг комментируя игры</div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </span>
         </div>
     )
-
+     
 }
