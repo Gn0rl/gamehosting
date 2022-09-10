@@ -1,0 +1,12 @@
+.BigIcon {
+    height: 20%;
+    width: 20%;
+    margin-right: 2%;
+}
+.MainProfile {
+    display: flex;
+}
+.UserName {
+    color: #00695c;
+    font-family: sans-serif;
+}

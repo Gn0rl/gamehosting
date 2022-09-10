@@ -7,7 +7,7 @@ const Profile = () => {
         <>
             <Top/>
             <div className="container">
-                <ProfileComponent/>
+                <ProfileComponent name={'User'}/>
             </div>
         </>
     );

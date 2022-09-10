@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fb91eb8-1505-41ab-8f42-3a18e1ef4a2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Profil.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Top.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ProfileComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProfileComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Profile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,6 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/dmitriy/Документы/WEB/react/gamehosting",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662715974511</updated>
       <workItem from="1662715984133" duration="53000" />
-      <workItem from="1662812494959" duration="845000" />
+      <workItem from="1662812494959" duration="2291000" />
     </task>
     <servers />
   </component>
