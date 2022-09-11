@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
-import "../css/login.css"
+import { Link } from 'react-router-dom';
+import "../css/login.css";
+import {Paths} from '../path';
 
 const LoginComponent = () => {
     let [email, setEmail] = useState(''),
@@ -16,8 +18,10 @@ const LoginComponent = () => {
                 <input placeholder="name" className="input" type="text" value={userName}
                        onChange={(el) => {setUserName(el.target.value)}}/>
                 <div className="buttons">
-                    <button>Войти</button>
-                    <button>Зарегистрироватся</button>
+                    <Link to={Paths[0].path}>
+                        <button>Войти</button>
+                        <button>Зарегистрироватся</button>
+                    </Link>
                 </div>
             </div>
         </div>
