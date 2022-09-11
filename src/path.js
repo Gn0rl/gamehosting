@@ -18,6 +18,10 @@ export const Paths = [
     {
         id: 4,
         path: "/login"
-    }
+    },
+    {
+        id: 5,
+        path: '/games'
+    },
 
 ]

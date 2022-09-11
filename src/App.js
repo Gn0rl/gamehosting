@@ -6,6 +6,7 @@ import MainPage from "./Pages/mainPage";
 import CreatePanel from "./Pages/CreatePanel";
 import Profile from "./Pages/Profile";
 import LoginPage from "./Pages/LoginPage";
+import { GamesPage } from './Pages/GamesPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route key={Paths[2].id} path={Paths[2].path} element={<CreatePanel/>}/>
           <Route key={Paths[3].id} path={Paths[3].path} element={<Profile/>}/>
           <Route key={Paths[4].id} path={Paths[4].path} element={<LoginPage/>}/>
+          <Route key={Paths[5].id} path={Paths[5].path} element={<GamesPage/>}/>
       </Routes>
     </div>
   );
