@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fb91eb8-1505-41ab-8f42-3a18e1ef4a2c" name="Changes" comment="Profile update">
-      <change afterPath="$PROJECT_DIR$/src/Components/LoginComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/login.css" afterDir="false" />
+    <list default="true" id="0fb91eb8-1505-41ab-8f42-3a18e1ef4a2c" name="Changes" comment="Create pre log in">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/CreatePanelComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/CreatePanelComponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/path.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +56,8 @@
       <updated>1662715974511</updated>
       <workItem from="1662715984133" duration="53000" />
       <workItem from="1662812494959" duration="2996000" />
-      <workItem from="1662826310600" duration="3540000" />
+      <workItem from="1662826310600" duration="3744000" />
+      <workItem from="1662876135717" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="Profile update">
       <created>1662816834703</created>
@@ -73,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662816834703</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create pre log in">
+      <created>1662835688347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662835688347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Profile update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Profile update" />
+    <MESSAGE value="Create pre log in" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create pre log in" />
   </component>
 </project>
