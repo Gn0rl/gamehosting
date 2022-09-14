@@ -8,7 +8,6 @@ import MainPage from '../Components/MainComponent'
 const GamePage = () => {
     return (
         <div>
-            <Top/>
             <div className="container">
                 <GameComponent GameName={'Terraria'} description={'Описание игры terraria'} version={'1.4'} plathorm={'PC, Android'} Images={[GameImg1, GameImg2, GameImg3]}/>
             </div>

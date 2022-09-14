@@ -1,4 +1,3 @@
-
 .CreatePanel {
     position: absolute;
     top: 20%;
@@ -9,4 +8,52 @@
     background-color: #1b2322;
     text-align: center;
     padding: 5%;
+    display: inline;
+}
+.NameGame {
+    
+}
+.inputImage {
+    height: 10%;
+    width: 10%;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    outline: 2px dashed #5d5d5d;
+    outline-offset: -12px;
+    background-color: #e0f2f7;
+    font-family: 'Segoe UI';
+    color: #1f3c44;
+}
+
+.textInUploadImage {
+    margin-top: 6rem;
+}
+
+.pasteUmage input {
+    width: 100%;
+    height: 100%;
+    opacity: 110%;
+
+    z-index: -10;
+}
+.pasteUmage div{
+    position: relative;
+    z-index: 10;
+}
+
+.pasteUmage label{
+    width: 100%;
+    height: 25rem;
+}
+
+label div {
+    width: 10rem;
+    height: 10rem;
 }

@@ -1,25 +1,42 @@
 import terrariaImg from '../Images/terraria.jpeg';
 import ReactPlayer from 'react-player';
-import {useState} from "react";
+import {useMemo, useState} from "react";
 
 const GameComponent = (props) => {
     let [donload, setDonload] = useState(false),
-        [heightTraler, setHeightTraler] = useState(40);
-    (function Now() {
-        if (heightTraler > 0) {
-            window.addEventListener("scroll", () => {
-                setHeightTraler(heightTraler -= 2)
-            })
-        }
+        [heightTraler, setHeightTraler] = useState(40),
+        [widthTraler, setWidthTraler] = useState(60);
 
-    }());
+    // (function Now() {
+    //     window.addEventListener("scroll", () => {
+
+    //         if( window.scrollY > 150 ) {
+    //             setHeightTraler(10)
+    //             setWidthTraler(10)
+    //         } else {
+    //             setHeightTraler(40);
+    //             setWidthTraler(60);
+    //         }
+    //         })  
+    //     }
+
+    // ());
+    let text = () => {
+        let text = 'длинное описание игры Terraria';
+        for (let i = 0; i < 150; i++) {
+            text = text + 'длинное описание игры Terraria'
+        }
+        return text
+    } 
 
     return (
         <div>
-                <div style={{height: heightTraler + "rem", marginBottom: "10%"}} id="Trealer">
-                    <ReactPlayer width={'100%'} height={'100%'} className='Video' url="https://www.youtube.com/watch?v=H77Zfzy4LWw" controls={false} />
-                </div>
-            <div style={{display: "flex"}}>
+            <button style={{borderRadius: "50%", width: "3rem", height: "3rem", fontSize: '1.7rem', marginLeft: "10%"}}>X</button>
+            <div style={{height: heightTraler + "rem", width: widthTraler + "rem"}} id="Trealer">
+                <ReactPlayer width={'100%'} height={'100%'} className='Video'
+                    url="https://www.youtube.com/watch?v=H77Zfzy4LWw" controls={false} />
+            </div>
+            <div style={{display: "flex", marginTop: "1rem"}}>
                 <div className="mainGameBlock">
                     <div className='ImgBlockImg'>
                         <img src={terrariaImg} alt={'a'} className={'GameImg'}/>
@@ -38,11 +55,13 @@ const GameComponent = (props) => {
                     <div className="donloadWin">
                         <div>
                             <h1>Скачать на PC</h1>
-                            <button className="BtnDonload BtnDonloadOn"><a href='https://disk.yandex.ru/d/EOHk86vIT9XVEQ'>Скачать</a></button>
+                            <button className="BtnDonload BtnDonloadOn"><a href='https://disk.yandex.ru/d/EOHk86vIT9XVEQ'>
+                                Скачать</a></button>
                         </div>
                         <div>
                             <h1>Скачать на Android</h1>
-                            <button className="BtnDonload BtnDonloadOn"><a href='https://disk.yandex.ru/d/EOHk86vIT9XVEQ'>Скачать</a></button>
+                            <button className="BtnDonload BtnDonloadOn"><a href='https://disk.yandex.ru/d/EOHk86vIT9XVEQ'>
+                                Скачать</a></button>
                         </div>
 
                     </div>}
@@ -53,6 +72,9 @@ const GameComponent = (props) => {
                 <img src={props.Images[1]} className="img" alt=' '/>
                 <img src={props.Images[2]} className="img" alt=' '/>
             </div>
+            <p>{text()}
+             
+            </p>
         </div>
     );
 
