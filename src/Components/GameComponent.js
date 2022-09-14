@@ -47,6 +47,7 @@ const GameComponent = (props) => {
                     <span className={'info'}>
                         <h1 className={'gameVersion'}>v. {props.version}</h1>
                         <h2 className={'gameVersion plathorm'}>{props.plathorm}</h2>
+                        <h2 className={'gameVersion'}>{props.genre}</h2>
                     </span>
                     <button className="BtnDonload" onClick={() => {setDonload(!donload)}}>Скачать</button>
                     </div>

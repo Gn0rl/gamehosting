@@ -9,7 +9,8 @@ const GamePage = () => {
     return (
         <div>
             <div className="container">
-                <GameComponent GameName={'Terraria'} description={'Описание игры terraria'} version={'1.4'} plathorm={'PC, Android'} Images={[GameImg1, GameImg2, GameImg3]}/>
+                <GameComponent GameName={'Terraria'} description={'Описание игры terraria'} version={'1.4'}
+                 plathorm={'PC, Android'} Images={[GameImg1, GameImg2, GameImg3]} genre={'песочница'}/>
             </div>
         </div>
     );
