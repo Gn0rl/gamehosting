@@ -1,6 +1,8 @@
 import terrariaImg from '../Images/terraria.jpeg';
 import ReactPlayer from 'react-player';
 import {useMemo, useState} from "react";
+import { Link } from 'react-router-dom';
+import {Paths} from '../path';
 
 const GameComponent = (props) => {
     let [donload, setDonload] = useState(false),
@@ -31,7 +33,7 @@ const GameComponent = (props) => {
 
     return (
         <div>
-            <button style={{borderRadius: "50%", width: "3rem", height: "3rem", fontSize: '1.7rem', marginLeft: "10%"}}>X</button>
+            <Link to={Paths[0].path}><button style={{borderRadius: "50%", width: "3rem", height: "3rem", fontSize: '1.7rem', marginLeft: "10%"}}>X</button></Link>
             <div style={{height: heightTraler + "rem", width: widthTraler + "rem"}} id="Trealer">
                 <ReactPlayer width={'100%'} height={'100%'} className='Video'
                     url="https://www.youtube.com/watch?v=H77Zfzy4LWw" controls={false} />
