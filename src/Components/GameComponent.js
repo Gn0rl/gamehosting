@@ -26,7 +26,7 @@ const GameComponent = (props) => {
     let text = () => {
         let text = 'длинное описание игры Terraria';
         for (let i = 0; i < 150; i++) {
-            text = text + 'длинное описание игры Terraria'
+            text = `${text} длинное описание игры Terraria`
         }
         return text
     } 
