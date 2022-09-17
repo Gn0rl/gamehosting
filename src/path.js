@@ -5,7 +5,7 @@ export const Paths = [
     },
     {
         id: 0,
-        path: '/game'
+        path: '/game/Terraria'
     },
     {
         id: 2,

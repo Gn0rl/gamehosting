@@ -8,7 +8,7 @@ const GameComponent = (props) => {
     let [donload, setDonload] = useState(false),
         [heightTraler, setHeightTraler] = useState(40),
         [widthTraler, setWidthTraler] = useState(60);
-
+        
     // (function Now() {
     //     window.addEventListener("scroll", () => {
 
@@ -23,13 +23,7 @@ const GameComponent = (props) => {
     //     }
 
     // ());
-    let text = () => {
-        let text = 'длинное описание игры Terraria';
-        for (let i = 0; i < 150; i++) {
-            text = `${text} длинное описание игры Terraria`
-        }
-        return text
-    } 
+    
 
     return (
         <div>
@@ -58,12 +52,12 @@ const GameComponent = (props) => {
                     <div className="donloadWin">
                         <div>
                             <h1>Скачать на PC</h1>
-                            <button className="BtnDonload BtnDonloadOn"><a href='https://disk.yandex.ru/d/EOHk86vIT9XVEQ'>
+                            <button className="BtnDonload BtnDonloadOn"><a href='https://disk.yandex.ru'>
                                 Скачать</a></button>
                         </div>
                         <div>
                             <h1>Скачать на Android</h1>
-                            <button className="BtnDonload BtnDonloadOn"><a href='https://disk.yandex.ru/d/EOHk86vIT9XVEQ'>
+                            <button className="BtnDonload BtnDonloadOn"><a href='https://disk.yandex.ru'>
                                 Скачать</a></button>
                         </div>
 
@@ -75,9 +69,7 @@ const GameComponent = (props) => {
                 <img src={props.Images[1]} className="img" alt=' '/>
                 <img src={props.Images[2]} className="img" alt=' '/>
             </div>
-            <p>{text()}
-             
-            </p>
+            <p>{props.longDiscription}</p>
         </div>
     );
 

@@ -1,0 +1,6 @@
+.games {
+    display: flex;
+}
+.gameElement {
+    margin: 2rem;
+}
