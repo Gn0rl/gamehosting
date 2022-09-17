@@ -1,20 +1,29 @@
 import React from 'react';
-import GamePage from "../Pages/game Page";
+import { useState } from 'react';
 
 const CreatePanelComponent = () => {
+    let [gameLogo, setGameLogo] = useState(false),
+        img = {
+            display: 'block',
+            opacity: '0'
+        }
     return (
         <div className="CreatePanel">
-            <input inputMode={"text"} aria-valuetext="name" name="GameName" required className="NameGame" placeholder="Название игры"/>
-            <form className='upload-container'>
-                <h1 className='textInUploadImage'>Иконка игры</h1>
-                    <div className='pasteUmage'>
-                        <input id="file-input" type="file" name="file" multiple/>
-                        <label for="file-input">
-                            <div/>
-                        </label>
-                        <h3 for="file-input">Выберите файл</h3>
-                    </div>
-            </form>
+            <input inputMode={"text"} aria-valuetext="name" name="GameName"
+            required className="NameGame" placeholder="Название игры"/>
+            <h1 className='textInUploadImage'>Иконка игры</h1>
+            <div className='inputImg'>
+                <input style={img} tabindex="-1" type="file" accept="image/*" required="required"/>
+                <input style={img} tabindex="-1" type="file" accept="image/*" required="required"/>
+                <input style={img} tabindex="-1" type="file" accept="image/*" required="required"/>
+                <input style={img} tabindex="-1" type="file" accept="image/*" required="required"/>
+                <input style={img} tabindex="-1" type="file" accept="image/*" required="required"/>
+                <input style={img} tabindex="-1" type="file" accept="image/*" required="required"/>
+                <input style={img} tabindex="-1" type="file" accept="image/*" required="required"/>
+                <input style={img} tabindex="-1" type="file" accept="image/*" required="required"/>
+            </div>
+            {gameLogo && <img src={gameLogo} alt=''/>}
+            
         </div>
     );
 };

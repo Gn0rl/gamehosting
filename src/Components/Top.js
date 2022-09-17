@@ -21,11 +21,7 @@ export default function Top()
                     <Link to={Paths[3].path} className='Profile'><img src={Logo2} alt='GAYPORNO'/></Link>
                 </div>
             </div>
-            <div style={{border: '1px solid #004d40'}}></div>
-        <nav className='navLink'>
-            
-            <Link className='navLink' to={Paths[1].path}>Terraria</Link>
-        </nav>
+            <div style={{border: '1px solid #004d40', marginBottom: '2rem'}}></div>
         </div>
     );
 }

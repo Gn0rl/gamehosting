@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 export function GamesComponent(props) {
 
     return (
@@ -10,11 +10,11 @@ export function GamesComponent(props) {
                 {props.games.map(game => {
                     return (
                         
-                        <div className="gameElement">
-                            <Link to={`/game/${game.name.replace(' ', '_')}`}>
-                                {game.img && <img src={game.img} className="GameImg"/>}
-                                <h1>{game.name}</h1>
-                                {game.price && <h1>{game.price}₽</h1>}
+                        <div className="gameElement" key={ game.id }>
+                            <Link to={ `/game/${ game.name.replace( ' ', '_' ) }` }>
+                                { game.img && <img src={ game.img } className=" GameImg "/> }
+                                <h1> { game.name } </h1>
+                                { game.price && <h1> { game.price }₽ </h1> }
                             </Link>
                         </div>   
                     )

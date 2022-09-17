@@ -1,13 +1,11 @@
 import terrariaImg from '../Images/terraria.jpeg';
 import ReactPlayer from 'react-player';
-import {useMemo, useState} from "react";
+import {useState} from "react";
 import { Link } from 'react-router-dom';
 import {Paths} from '../path';
 
 const GameComponent = (props) => {
-    let [donload, setDonload] = useState(false),
-        [heightTraler, setHeightTraler] = useState(40),
-        [widthTraler, setWidthTraler] = useState(60);
+    let [donload, setDonload] = useState(false);
         
     // (function Now() {
     //     window.addEventListener("scroll", () => {
@@ -27,8 +25,8 @@ const GameComponent = (props) => {
 
     return (
         <div>
-            <Link to={Paths[0].path}><button style={{borderRadius: "50%", width: "3rem", height: "3rem", fontSize: '1.7rem', marginLeft: "10%"}}>X</button></Link>
-            <div style={{height: heightTraler + "rem", width: widthTraler + "rem"}} id="Trealer">
+            <Link to={Paths[5].path}><button style={{borderRadius: "50%", width: "3rem", height: "3rem", fontSize: '1.7rem', marginLeft: "10%"}}>X</button></Link>
+            <div id="Trealer">
                 <ReactPlayer width={'100%'} height={'100%'} className='Video'
                     url="https://www.youtube.com/watch?v=H77Zfzy4LWw" controls={false} />
             </div>
