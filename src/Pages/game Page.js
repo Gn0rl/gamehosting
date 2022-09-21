@@ -11,14 +11,15 @@ let text = () => {
     return text
 } 
 
-const GamePage = () => {
+const GamePage = (props) => {
     return (
-        <div>
+        <>
             <div className="container">
-                <GameComponent GameName={'Terraria'} description={'Описание игры terraria'} version={'1.4'}
-                 plathorm={'PC, Android'} Images={[GameImg1, GameImg2, GameImg3]} genre={'песочница'} longDiscription={text()}/>
+                <GameComponent GameName={props.name} description={props.description} version={props.version}
+                 plathorms={props.plathorms} Images={props.Images}
+                  genre={props.genre} longDiscription={props.longDiscription} image={props.img} Trealer={props.Trealer}/>
             </div>
-        </div>
+        </>
     );
 };
 

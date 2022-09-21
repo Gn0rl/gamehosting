@@ -1,3 +1,7 @@
+import { Games } from "./Images/stateGame"
+
+
+
 export const Paths = [
     {
         id: 1,
@@ -23,5 +27,6 @@ export const Paths = [
         id: 5,
         path: '/games'
     },
+    
 
 ]

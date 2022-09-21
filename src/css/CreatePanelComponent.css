@@ -21,7 +21,20 @@
 .inputImg {
     margin-left: 25%;
     width: 50%;
-    background-color: #2a3d3b;
+    width: 50%;
+    height: 50%;
+    padding-left: 5%;
+}
+
+.inputImg input {
+    position: relative;
+    font-size: 1.5rem;
+    font-family: cursive sans-serif;
+    background-color: #00695c;
+    color: #282c34;
+    border: none;
+    outline: 0;
+    outline-offset: 0;
 }
 
 .textInUploadImage {
