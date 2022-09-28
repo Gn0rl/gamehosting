@@ -1,10 +1,10 @@
 import '../css/top.css';
 import Logo from '../Images/Logo.png';
-import Logo2 from './User.png';
+import Logo2 from '../Images/User.png';
 import {Link} from 'react-router-dom';
 import { Paths } from '../path';
 
-export default function Top()
+export default function Top(props)
 {
     return(
         <div className='Container'>
@@ -17,9 +17,9 @@ export default function Top()
                         <span>GAMEHOSTING</span>
                     </div>
                 </div>
-                <div style={{display: 'inline'}}>
+                {!props.ProfileIcon &&<div style={{display: 'inline'}}>
                     <Link to={Paths[3].path} className='Profile'><img src={Logo2} alt='GAYPORNO'/></Link>
-                </div>
+                </div>}
             </div>
             <div style={{border: '1px solid #004d40', marginBottom: '2rem'}}></div>
         </div>

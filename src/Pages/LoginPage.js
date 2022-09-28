@@ -1,6 +1,6 @@
 import React from 'react';
-import Top from '../Components/Top'
-import LoginComponent from "../Components/LoginComponent";
+import Top from '../Main Components/Top'
+import LoginComponent from "../Main Components/LoginComponent";
 
 const LoginPage = () => {
     return (

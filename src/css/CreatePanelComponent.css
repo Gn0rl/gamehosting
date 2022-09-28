@@ -2,13 +2,13 @@
     position: absolute;
     top: 20%;
     left: 5%;
-    height: 80%;
+    height: auto;
     width: 80%;
 
-    background-color: #1b2322;
     text-align: center;
     padding: 5%;
     display: inline;
+    margin-bottom: 2rem;
 }
 .NameGame {
     
@@ -39,5 +39,20 @@
 
 .textInUploadImage {
     margin-top: 6rem;
+}
+textarea {
+    background-color: #00695c;
+    color: #282c34;
+    font-family: cursive sans-serif;
+    outline: none;
+    font-size: 1.1rem;
+    border: #112b26 solid 0.2rem;
+    border-radius: 2%;
+}
+.discription {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    height: 30%;
 }
 

@@ -1,5 +1,5 @@
-import Top from "../Components/Top";
-import { GamesComponent} from "../Components/GamesComponent";
+import Top from "../Main Components/Top";
+import { GamesComponent} from "../Main Components/GamesComponent";
 import '../css/Games.css'
 import { Games } from "../Images/stateGame";
 export function GamesPage() {

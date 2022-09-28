@@ -1,13 +1,13 @@
 import './css/App.css';
 import {Routes, Route} from 'react-router-dom';
 import {Paths} from "./path";
-import GamePage from "./Pages/game Page";
 import MainPage from "./Pages/mainPage";
 import CreatePanel from "./Pages/CreatePanel";
 import Profile from "./Pages/Profile";
 import LoginPage from "./Pages/LoginPage";
 import { GamesPage } from './Pages/GamesPage';
 import { Games } from './Images/stateGame';
+import { Game } from './Pages/Game';
 
 function App() {
   return (
@@ -19,13 +19,14 @@ function App() {
           <Route key={Paths[4].id} path={Paths[4].path} element={<LoginPage/>}/>
           <Route key={Paths[5].id} path={Paths[5].path} element={<GamesPage/>}/>
           {Games.map(game => {
-            return <>
+            return (
+            <>
               <Route key={game.id + 10} path={ `/game/${ game.name.replace( ' ', '_' ) }`} 
-            element={<GamePage name={game.name} img={game.img} 
+            element={<Game name={game.name} img={game.img} 
             discription={game.description} longDiscription={game.longDiscription} Images={game.images} 
-            version={game.version} genre={game.genre} plathorms={game.platforms} Trealer={game.Trealer}/>}/>
+            version={game.version} genre={game.genre} plathorms={game.platforms} Trealer={game.Trealer} url={game.url}/>}/>
             </>
-          })}
+          )})}
       </Routes>
     </div>
   );

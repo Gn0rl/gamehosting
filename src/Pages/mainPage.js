@@ -1,5 +1,5 @@
-import MainComponent from "../Components/MainComponent";
-import Top from '../Components/Top';
+import MainComponent from "../Main Components/MainComponent";
+import Top from '../Main Components/Top';
 
 
 const GamePage = () => {

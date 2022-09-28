@@ -7,7 +7,8 @@ const CreatePanelComponent = () => {
             display: 'block',
             opacity: '100'
         },
-        [imgLoad, setImgLoad] = useState(false)
+        [imgLoad, setImgLoad] = useState(false),
+        [discriprion, setDiscriprion] = useState('');
 
     
     
@@ -27,8 +28,13 @@ const CreatePanelComponent = () => {
             }}/>
             </div>
             {imgLoad && <img src={imgLoad}/>}
-            {gameLogo && <img src={gameLogo} alt=''/>}
-            
+            <textarea placeholder='описание' className='discription' value={discriprion} 
+            onChange={el => {setDiscriprion(el.target.value)}}/>
+            <h1>Картинки игры</h1>
+            <div className='inputImg' style={{position: 'static'}}>
+                <input type='file'/>
+            </div>
+
         </div>
     );
 };
