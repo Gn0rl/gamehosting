@@ -8,7 +8,7 @@ export function GamesComponent(props) {
             </div>
             <div className="games">
                 {props.games.map(game => {
-                    if ( game.id == 4 ) {
+                    if ( game.id === 4 ) {
                         return (
                             <div className="gameElement" key={ game.id }>
                             <Link to={ `/game/${ game.name.replace( ' ', '_' ) }` }>
